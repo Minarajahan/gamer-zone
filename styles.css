@@ -1,0 +1,80 @@
+/* Responsive for desktop view */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navber start from here*/
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(233, 241, 241);
+}
+
+.nav-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 70px;
+}
+
+.nav-logo h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.game-color {
+    color: rgb(255, 66, 165);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.follow-us-design {
+    padding: 10px 25px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    text-decoration: none;
+}
+.nav-youtube{
+    padding-left: 10px;
+  
+}
+.nav-tiktok{
+    padding-left: 10px;
+}
+
+/* header section */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-image: url('images/Group\ 14.png');
+    background-repeat: no-repeat;
+   
+}
+.header-img img{
+    width: 450px;
+}
+.header-description{
+ margin-left: 150px;
+   
+   
+}
+.goat{
+    font-size: 95px;
+    color: rgb(135, 88, 241);
+font-weight: 800;
+font-size: 50px;
+font-weight: 800;
+}

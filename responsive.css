@@ -1,0 +1,51 @@
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin:1em;
+    }
+    .nav-logo{
+        margin-top: 3em;
+    }
+}
+
+
+
+
+/* @media screen and (min-width:401px) {
+    .navbar{
+        flex-direction: row;
+    }
+    .navigation-container{
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .navigation-container a{
+        margin-top: 0;
+    }
+
+
+    .banner{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50vh;
+        
+    }
+    .banner-text{
+        width: 50%;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .banner-image{
+        width: 50%;
+        margin-top: 0;
+    }
+} */
