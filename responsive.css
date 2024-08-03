@@ -1,4 +1,8 @@
 @media screen and (max-width:576px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
     .nav-container{
         flex-direction: column;
     }
@@ -9,43 +13,33 @@
     .nav-logo{
         margin-top: 3em;
     }
+    .header-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .header-img img{
+        background-image: none;
+    }
+    /* second container */
+    .second-container{
+       flex-direction: column;
+       text-align: center;
+    }
+    .second-container-img img{
+        width: 100%;
+    }
+    .second-container-text{
+        margin-top: 50px;
+    }
+    .online-heading{
+        margin-top: 50px;
+    }
+    .online-game-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    br{
+        display: none;
+    }
 }
-
-
-
-
-/* @media screen and (min-width:401px) {
-    .navbar{
-        flex-direction: row;
-    }
-    .navigation-container{
-        flex-direction: row;
-        width: 50%;
-        justify-content: space-around;
-        align-items: center;
-        
-    }
-    .navigation-container a{
-        margin-top: 0;
-    }
-
-
-    .banner{
-        flex-direction: row;
-        justify-content: space-between;
-        height: 50vh;
-        
-    }
-    .banner-text{
-        width: 50%;
-        text-align: left;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .banner-image{
-        width: 50%;
-        margin-top: 0;
-    }
-} */
