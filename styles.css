@@ -10,7 +10,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 16px;
-    background-color: rgb(204, 187, 187);
+    background-color: rgb(250, 247, 247);
 }
 
 .nav-logo {
@@ -325,6 +325,72 @@ width: 400px;
 }
 .icon-box:hover{
     cursor: pointer;
-    border: 3px solid rgb(249, 72, 178);
-    color: rgb(249, 72, 178);
+    border: 3px solid rgb(102, 194, 240);
+   
+}
+
+/* footer section */
+.footer-container{
+    padding: 100px;
+    background-color:rgb(11, 2, 35); ;
+}
+.footer-para-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+.footer-para-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(179, 174, 174);
+}
+.footer-para-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-size: 16px;
+    margin-top:30px;
+    color: rgb(182, 178, 178);
+
+}
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer-logo img {
+    width: 70px;
+}
+
+.footer-logo h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.game-color {
+    color: rgb(255, 66, 165);
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  color: white;
+
 }
