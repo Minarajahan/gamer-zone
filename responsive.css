@@ -1,45 +1,89 @@
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
     * {
         margin: 0;
         padding: 0;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
     }
-    .nav-menu{
+
+    .nav-menu {
         flex-direction: column;
-        margin:1em;
+        margin: 1em;
     }
-    .nav-logo{
+
+    .nav-logo {
         margin-top: 3em;
     }
-    .header-container{
+
+    .header-container {
         flex-direction: column;
         flex-direction: column-reverse;
     }
-    .header-img img{
+
+    .header-img img {
         background-image: none;
     }
+
     /* second container */
-    .second-container{
-       flex-direction: column;
-       text-align: center;
+    .second-container {
+        flex-direction: column;
+        text-align: center;
     }
-    .second-container-img img{
+
+    .second-container-img img {
         width: 100%;
     }
-    .second-container-text{
+
+    .second-container-text {
         margin-top: 50px;
     }
-    .online-heading{
+
+    .online-heading {
         margin-top: 50px;
     }
-    .online-game-container{
+
+    .online-game-container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    br{
+
+    br {
         display: none;
     }
+
+    /* instantly section */
+    .instantly-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .instantly-heading {
+        margin-left: 0;
+    }
+
+    .instantly-heading-2 {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .instantly-img {
+        width: 340px;
+        margin-left: 60px;
+    }
+
+    .overlay-img {
+        width: 170px;
+        margin-left: 60px;
+    }
+    .instantly-img-container{
+       margin-top: 40px;
+    }
+    .instantly-para {
+        text-align:center;
+        
+    }
+
 }

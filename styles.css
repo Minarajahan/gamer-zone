@@ -97,9 +97,9 @@
     font-weight: bolder;
     font-size: 50px;
     font-weight: 800;
-    /* background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+    -webkit-background-clip: text;
 
 }
 
@@ -146,9 +146,9 @@
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 20px;
-    /* background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+    -webkit-background-clip: text;
 }
 
 .second-container-text p {
@@ -214,9 +214,9 @@
 .funny-video {
     font-size: 40px;
     color: rgb(135, 88, 241);
-    /* background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+    -webkit-background-clip: text;
 }
 
 #overlay-img {
@@ -231,7 +231,59 @@
     color: rgb(255, 66, 165);
     font-size: 20px;
 }
-.play-icon{
+
+.play-icon {
     font-size: 30px;
     color: white;
+}
+
+/* instantly section */
+.instantly-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(252, 249, 249);
+    
+}
+
+.instantly-heading {
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+.instantly-heading-2 {
+    font-size: 40px;
+    margin-left: 75px;
+}
+
+.instantly-para {
+    text-align: end;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(84, 91, 97);
+}
+.play-instantly-color{
+    font-size: 40px;
+    color: rgb(249, 72, 178);
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.instantly-img{
+width: 400px;
+}
+.instantly-img-container{
+    position: relative;
+}
+.instantly-img-overlay{
+    position: absolute;
+    top: 55%;
+    left: -25%;
+
+}
+.overlay-img{
+    width: 210px;
 }
