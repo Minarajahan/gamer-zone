@@ -20,12 +20,20 @@
     .header-container {
         flex-direction: column;
         flex-direction: column-reverse;
+        
+    }
+    .header-img {
+    margin: 30px;
     }
 
     .header-img img {
-        background-image: none;
+        width: 100%;
+        
     }
-
+    .header-desc {
+       height: 400px;
+       width: 500px;
+    }
     /* online game container*/
     .second-container {
         flex-direction: column;
